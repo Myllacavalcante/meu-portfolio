@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:'Megrim' ;
+    src: url('Megrim-Regular.ttf');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family:'Pompiere' ;
+    src: url('Pompiere-Regular.ttf');
+    font-weight: normal;
+}
+
+#principal{
+    text-align: center;
+    background-color:#021c02 ;
+    font-family: 'Megrim';
+    font-size: larger;
+}
+
+body {
+    background-color:#032803 ;
+    color: #dc0b0b;
+    font-size:28px;
+    font-family: 'Pompiere';
+}
+
+#mostrar {
+    display:none;
+}
+#passarMouse:hover #mostrar {
+    display: block;
+}
+
+h1,h4 {
+    background-color:rgb(2, 28, 2) ;
+    font-family: 'Megrim';
+    font-size: larger;
+}
+
+footer {
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+}
+
+.links {
+    color:rgb(220,11,11);
+    text-decoration-line: none;
+}
+
+.links:hover {
+    color: greenyellow;
+    font-size: x-large;
+    text-transform: uppercase;
+}
+
+.links::after {
+    content:'[link]';
+    color: rgb(41, 118, 51);
+    font-family: monospace;
+    font-size: small;
+}
+
+.links::before{
+    content: '⇒';
+}
+
+ul#contato{
+    font-size: 25px;
+    text-align: center;
+}
+
